@@ -1,0 +1,52 @@
+[01-May-2026 19:33:44 America/Santo_Domingo] [AUTH] Login fallido: email=mahlerlb@gmail.com | IP=152.0.141.37 | intento=1 | 2026-05-01 19:33:44
+[04-May-2026 09:27:48 America/Santo_Domingo] [AJAX Handler Error] Action: get_live_updates | Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lnuazoql_elclickrdv2.live_blog_updates' doesn't exist | File: /home/lnuazoql/elclickrd.com/config/database.php | Line: 168
+[04-May-2026 09:28:48 America/Santo_Domingo] [AJAX Handler Error] Action: get_live_updates | Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lnuazoql_elclickrdv2.live_blog_updates' doesn't exist | File: /home/lnuazoql/elclickrd.com/config/database.php | Line: 168
+[04-May-2026 13:46:00 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function validateCsrf() in /home/lnuazoql/elclickrd.com/admin/encuestas.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/lnuazoql/elclickrd.com/admin/encuestas.php on line 63
+[04-May-2026 16:08:19 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function validateCsrf() in /home/lnuazoql/elclickrd.com/admin/encuestas.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/lnuazoql/elclickrd.com/admin/encuestas.php on line 63
+[04-May-2026 16:08:48 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function validateCsrf() in /home/lnuazoql/elclickrd.com/admin/encuestas.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/lnuazoql/elclickrd.com/admin/encuestas.php on line 63
+[05-May-2026 15:59:25 America/Santo_Domingo] [AUTH] Login fallido: email=mahlerlb@gmail.com | IP=152.0.129.53 | intento=1 | 2026-05-05 15:59:25
+[05-May-2026 16:18:15 America/Santo_Domingo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lnuazoql_elclickrdv2.noticias' doesn't exist in /home/lnuazoql/elclickrd.com/config/database.php:168
+Stack trace:
+#0 /home/lnuazoql/elclickrd.com/config/database.php(168): PDO->prepare('SELECT n.*,\r\n  ...')
+#1 /home/lnuazoql/elclickrd.com/config/database.php(190): Database->query('SELECT n.*,\r\n  ...', Array)
+#2 /home/lnuazoql/elclickrd.com/includes/functions.php(692): Database->fetchOne('SELECT n.*,\r\n  ...', Array)
+#3 /home/lnuazoql/elclickrd.com/noticia.php(29): getNoticiaPorSlug('grammy-latino-2...')
+#4 {main}
+  thrown in /home/lnuazoql/elclickrd.com/config/database.php on line 168
+[05-May-2026 16:25:33 America/Santo_Domingo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lnuazoql_elclickrdv2.noticias' doesn't exist in /home/lnuazoql/elclickrd.com/config/database.php:168
+Stack trace:
+#0 /home/lnuazoql/elclickrd.com/config/database.php(168): PDO->prepare('SELECT n.*,\r\n  ...')
+#1 /home/lnuazoql/elclickrd.com/config/database.php(190): Database->query('SELECT n.*,\r\n  ...', Array)
+#2 /home/lnuazoql/elclickrd.com/includes/functions.php(692): Database->fetchOne('SELECT n.*,\r\n  ...', Array)
+#3 /home/lnuazoql/elclickrd.com/noticia.php(29): getNoticiaPorSlug('dominicano-vlad...')
+#4 {main}
+  thrown in /home/lnuazoql/elclickrd.com/config/database.php on line 168
+[05-May-2026 16:25:41 America/Santo_Domingo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lnuazoql_elclickrdv2.noticias' doesn't exist in /home/lnuazoql/elclickrd.com/config/database.php:168
+Stack trace:
+#0 /home/lnuazoql/elclickrd.com/config/database.php(168): PDO->prepare('SELECT n.*,\r\n  ...')
+#1 /home/lnuazoql/elclickrd.com/config/database.php(190): Database->query('SELECT n.*,\r\n  ...', Array)
+#2 /home/lnuazoql/elclickrd.com/includes/functions.php(692): Database->fetchOne('SELECT n.*,\r\n  ...', Array)
+#3 /home/lnuazoql/elclickrd.com/noticia.php(29): getNoticiaPorSlug('dominicano-vlad...')
+#4 {main}
+  thrown in /home/lnuazoql/elclickrd.com/config/database.php on line 168
+[05-May-2026 16:25:43 America/Santo_Domingo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lnuazoql_elclickrdv2.noticias' doesn't exist in /home/lnuazoql/elclickrd.com/config/database.php:168
+Stack trace:
+#0 /home/lnuazoql/elclickrd.com/config/database.php(168): PDO->prepare('SELECT n.*,\r\n  ...')
+#1 /home/lnuazoql/elclickrd.com/config/database.php(190): Database->query('SELECT n.*,\r\n  ...', Array)
+#2 /home/lnuazoql/elclickrd.com/includes/functions.php(692): Database->fetchOne('SELECT n.*,\r\n  ...', Array)
+#3 /home/lnuazoql/elclickrd.com/noticia.php(29): getNoticiaPorSlug('dominicano-vlad...')
+#4 {main}
+  thrown in /home/lnuazoql/elclickrd.com/config/database.php on line 168
+[06-May-2026 06:16:29 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined method Auth::getCSRFToken() in /home/lnuazoql/elclickrd.com/admin/generador.php:1112
+Stack trace:
+#0 {main}
+  thrown in /home/lnuazoql/elclickrd.com/admin/generador.php on line 1112
